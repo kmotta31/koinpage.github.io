@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagina</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section id="background">
+    <header class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"><h2>KOIN</h2></a>
+      <span id="userName" class="ml-3"></span> 
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#desayunos" data-target="#desayunos">Acerca de KOIN</a></li>
+          <li class="nav-item"><a class="nav-link" href="#almuerzos">Como usarlo</a></li>
+          <li class="nav-item"><a class="nav-link" href="#comidas">Paneles de control y graficas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#entradas">Recordatorios y metas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#menu-infantil">Ajustes y ayudas</a></li>
+        </ul>
+      </div>
+      <button class="btn btn-primary ml-3" data-toggle="modal" data-target="#registerModal">Registrarse</button>
+    </header>
+  
+    <!-- Nueva Sección de Imagen y Descripción -->
+    <section class="image-description-section mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="C:\Users\KMOTT\OneDrive\Escritorio\ap.jpg" alt="Descripción de la imagen" class="img-fluid">
+          </div>
+          <div class="col-md-6 d-flex align-items-center">
+            <p class="lead">En la era digital actual, la gestión de nuestras finanzas personales se ha convertido en una 
+              necesidad fundamental para alcanzar la tranquilidad económica y el bienestar financiero a largo 
+              plazo. Con el fin de abordar esta necesidad creciente, hemos desarrollado un innovador proyecto 
+              que es una  aplicación movil diseñada para ayudarte a administrar tus finanzas personales de 
+              manera inteligente y efectiva, con una interfaz sencilla e intuitiva de usar.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main class="container mt-5">
+      <section id="desayunos" class="menu-section">
+        <h2>KOIN</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="menu-item text-center">
+              <h3>¿De donde salio?</h3>
+              <img src="idea.png" alt="Desayuno 1" class="img-fluid">
+              <button class="quick-view-btn btn btn-primary" data-toggle="modal" data-target="#quickViewModal" data-description="Koin es una innovadora aplicación de finanzas personales diseñada para ayudar a los usuarios a gestionar eficientemente sus finanzas. Con Koin, puedes registrar y monitorear tus ingresos y gastos, establecer metas financieras y obtener una visión clara de tu situación económica. La aplicación está orientada a fomentar hábitos financieros saludables y proporcionar herramientas intuitivas para una mejor toma de decisiones " data-image="idea.png">Ingresar</button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="menu-item text-center">
+              <h3>¿Para que sirve?</h3>
+              <img src="imprevisto.png" alt="Desayuno 2" class="img-fluid">
+              <button class="quick-view-btn btn btn-primary" data-toggle="modal" data-target="#quickViewModal" data-description="Para utilizar nuestra aplicacion lo unico que tienes que hacer es instalarla, registrarte con un correo y una contraseña facil de usar, ya dentro podras llevar registro de cada ingreso que quiera digitar al igual que los gastos que tengas, puedes decidir que te arroje graficos quincenales, mensual o anuales, de cuanto dinero has guardado o cuanto has gastado, ademas de poner metas la cuales quieras cumplir distribuyendo tu dinero, Tambien tiene un apartado de notificaciones los cuales puedes configurar si desea recibir notificaciones cuando se te olvide un dia registar, si un dia debes de pagar un recibo o si ya has alcanzado una meta en un tiempo establecido." data-image="imprevisto.png">Ingresar</button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="menu-item text-center">
+              <h3>Descarga la APP</h3>
+              <img src="tienditas.png" alt="Desayuno 3" class="img-fluid">
+              <button class="quick-view-btn btn btn-primary" data-toggle="modal" data-target="#quickViewModal" data-description="Puedes encontrar la aplicacion en las tres principales tiendas moviles, ademas que en un futuro podras manejarla desde la web." data-image="tienditas.png">Ingresar</button>
+            </div>
+          </div>
+        </div>  
+      </section>
+      <section class="image-description-section mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="C:\Users\KMOTT\OneDrive\Escritorio\divisas.png" alt="Descripción de la imagen" class="img-fluid">
+            </div>
+            <div class="col-md-6 d-flex align-items-center">
+              <p class="lead">¿No usas el peso colombiano? No te preocupes Koin tambien esta disponible en otras monedas, como euro y dolar, ademas; si no eres de colombia o algun pais que use este tipo de denominacion muy pronto tendremos todas las monedas de latinoamerica y podras registrar tus gastos mas precisos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <p>
+        </p>
+      </section>
+
+
+      <section id="diseño" class="menu-section mt-5">
+        <h2>Diseño</h2>
+        <p>Decidimos usar una paleta de colores simple pero agradable a la vista así como un diseño intuitivo y sencillo de utilizar.</p>
+        <div class="row">
+          <div class="col-md-2">
+            <div class="color-circle" style="background-color: #3d3e3f;"></div> <!-- Gris oscuro -->
+            <p class="text-center">3d3e3f</p>
+          </div>
+          <div class="col-md-2">
+            <div class="color-circle" style="background-color: #2f2f30;"></div> <!-- Gris más claro -->
+            <p class="text-center">#2f2f30</p>
+          </div>
+          <div class="col-md-2">
+            <div class="color-circle" style="background-color: #ecf0f1;"></div> <!-- Blanco -->
+            <p class="text-center">#ecf0f1</p>
+          </div>
+          <div class="col-md-2">
+            <div class="color-circle" style="background-color: #3498db;"></div> <!-- Azul -->
+            <p class="text-center">#3498db</p>
+          </div>
+          <div class="col-md-2">
+            <div class="color-circle" style="background-color: #000000;"></div> <!-- Negro -->
+            <p class="text-center">#000000</p>
+          </div>
+        </div>
+      </section>
+      
+  
+      <section id="almuerzos" class="menu-section">
+        <h2>Como usar KOIN</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="menu-item text-center">
+              <h3>Registro</h3>
+              <img src="CREARCUENTA.png" alt="Almuerzo 1" class="img-fluid">
+              <button class="quick-view-btn btn btn-primary" data-toggle="modal" data-target="#quickViewModal" data-description="Realizar el registro en una aplicacion nunca fue tan facil!!! Solo necesitas un correo electronico, tu nombre y una contraseña facil de recordar, despues de hacerlo podras disfrutar de todas las funciones de KOIN." data-image="CREARCUENTA.png">Registrarse</button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="menu-item text-center">
+              <h3>Incio de sesion</h>
+              <img src="INICIO DE SESION.png" alt="Almuerzo 2" class="img-fluid">
+              <button class="quick-view-btn btn btn-primary" data-toggle="modal" data-target="#quickViewModal" data-description="Pasta a la carbonara con queso rayado y trozo de tocineta" data-image="INICIO DE SESION.png">Iniciar sesion</button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="menu-item text-center">
+              <h3>Panel principal</h3>
+              <img src="PAANEL DE AGREGAR.PNG" alt="Almuerzo 3" class="img-fluid">
+              <button class="quick-view-btn btn btn-primary" data-toggle="modal" data-target="#quickViewModal" data-description="Despues de acceder a la aplicacion con tu nueva cuenta podras ver en el panel de inicio varias opciones, como agregar ingreso, gasto, meta o un recordatorio, utiliza lo quieras, koin es tu patio de juegos" data-image="PAANEL DE AGREGAR.png">Inicio</button>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <section id="comidas" class="menu-section">
+        <h2>Paneles de control y graficas</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="menu-item text-center">
+              <h3>Panel de control</h3>
+              <img src="PANEL DE CONTROL.PNG" alt="Comida 1" class="img-fluid">
+              <button class="quick-view-btn btn btn-primary" data-toggle="modal" data-target="#quickViewModal" data-description="EL panel de control esta para que veas como tienes distribuido el dinero que has ahorrado o el dinero que has gastado hasta el momento, tambien veras lo que has ingresado en tus metas" data-image="PANEL DE CONTROL.png">Control</button>  
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="menu-item text-center">
+              <h3>Graficas</h3>
+              <img src="PANEL DE BALANCE.PNG" alt="Comida 2" class="img-fluid">
+              <button class="quick-view-btn btn btn-primary" data-toggle="modal" data-target="#quickViewModal" data-description="En este sector podras visualizar y comparar cada registro quincenal, mensual o anual que has hecho, visualizaras cuanto te falta para alcanzar tus metas y podras comparar si algun mes te has pasado en gastos, esto lo podras ver cada vez que quieras y asi podras ver si puedes mejorar la siguiente vez." data-image="PANEL DE BALANCE.png">Graficas</button>
+            </div>
+          </div>
+      </section>
+  
+      <section id="entradas" class="menu-section">
+        <h2>Recordatorios y metas</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="menu-item text-center">
+              <h3>Ingresar recordatorio</h3>
+              <img src="PANEL DE RECORDATORIOS.PNG" alt="Entrada 1" class="img-fluid">
+              <button class="quick-view-btn btn btn-primary" data-toggle="modal" data-target="#quickViewModal" data-description="Aqui podras agregar un recordatorio o notificacion que quieras recibir a tu correo o numero telfonico, ademas podras especificar el recordatorio si es para ingresar un ahorro o un gasto, tambien podras poner una descripcion del por que el recordatorio para que sepas por que te llego." data-image="PANEL DE RECORDATORIOS.png">Recordar</button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="menu-item text-center">
+              <h3>Establece metas</h3>
+              <img src="REGISTRAR META.PNG" alt="Entrada 1" class="img-fluid">
+              <button class="quick-view-btn btn btn-primary" data-toggle="modal" data-target="#quickViewModal" data-description="Establecer metas a corto y largo plazo son importantes para la salud economica, en este apartado puedes decidir cuantas metas quieres tener, cuanto vas a ingresar a cada metas y cuando quieres que te recuerden que tiene sesta meta, ademas que cada meta llevara una descripcion que decidas poner para diferenciarlas entres si." data-image="REGISTRAR META.png">Establece una meta</button>
+            </div>
+          </div>
+      </section>
+  
+      <section id="menu-infantil" class="menu-section">
+        <h2>Ajustes y ayudas</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="menu-item text-center">
+              <h3>Ajustes</h3>
+              <img src="PANEL MENU DE OPCIONES.PNG" alt="Plato Infantil 1" class="img-fluid">
+              <button class="quick-view-btn btn btn-primary" data-toggle="modal" data-target="#quickViewModal" data-description="Aqui podras editar y configurar tu informacion y la aplicacion a tu gusto, puedes camviar tu nombre, tu correo y tu contraseña cuando quieras, editar tu perfil como foto la foto de susuario, ademas que en caso de tener incovenientes con la aplicacion podras solicitar la ayuda de un asesor." data-image="PANEL MENU DE OPCIONES.png">Configuracion</button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="menu-item text-center">
+              <h3>Atención al cliente</h3>
+              <img src="atencion.png" alt="Plato Infantil 2" class="img-fluid">
+              <button class="quick-view-btn btn btn-primary" data-toggle="modal" data-target="#quickViewModal" data-description="En caso de cualquier problema o alguna duda, contactarnos en nuestras redes o llamar a estos números: 300 2523428 - 300 6946424" data-image="atencion.png">Contactar</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  
+    <!-- Modal Vista Rápida -->
+    <div class="modal fade" id="quickViewModal" tabindex="-1" role="dialog" aria-labelledby="quickViewModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="quickViewModalLabel">Descripción</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6">
+                <img id="modal-image" src="" alt="Vista Rápida" class="img-fluid">
+              </div>
+              <div class="col-md-6">
+                <p id="modal-description">Descripción del plato seleccionado.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Registro -->
+    <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="registerModalLabel">Registro</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form id="registerForm">
+              <div class="form-group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" class="form-control" id="email" required>
+              </div>
+              <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="text" class="form-control" id="name" required>
+              </div>
+              <div class="form-group">
+                <label for="password">Contraseña</label>
+                <input type="password" class="form-control" id="password" required>
+              </div>
+              <button type="submit" class="btn btn-primary">Registrarse</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="testimonials" class="mt-5">
+      <div class="container">
+        <h2>Testimonios</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="testimonial">
+              <p>"¡Increíble aplicación! Me ha ayudado a controlar mis finanzas de manera efectiva y fácil. ¡Altamente recomendada!"</p>
+              <p class="author">- Juan Pérez</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial">
+              <p>"KOIN ha sido una herramienta fundamental en mi vida financiera. Gracias a ella, he podido alcanzar mis metas de ahorro sin complicaciones."</p>
+              <p class="author">- María Gómez</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial">
+              <p>"No puedo imaginar mi vida sin KOIN. Su interfaz intuitiva y sus funciones completas la convierten en la mejor opción para gestionar tus finanzas."</p>
+              <p class="author">- Carlos Rodríguez</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <footer class="text-center mt-5">
+      <div class="container">
+        <p>&copy; 2024 KOIN. Todos los derechos reservados.</p>
+        <p>Contacto: info@koin.com</p>
+        <ul class="footer-links">
+          <li><a href="#">Descargar en Google Play</a></li>
+          <li><a href="#">Descargar en App Store</a></li>
+          <li><a href="#">Descargar APK</a></li>
+        </ul>
+      </div>
+    </footer>
+  
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        // Mostrar descripción e imagen en el modal de vista rápida
+        $('.quick-view-btn').on('click', function() {
+          var description = $(this).data('description');
+          var image = $(this).data('image');
+          $('#modal-description').text(description);
+          $('#modal-image').attr('src', image);
+        });
+
+        // Manejar el envío del formulario de registro
+        $('#registerForm').on('submit', function(event) {
+          event.preventDefault();
+          var name = $('#name').val();
+          $('#userName').text('Bienvenido, ' + name);
+          $('#registerModal').modal('hide');
+        });
+      });
+    </script>
+  </body>
+</html>
